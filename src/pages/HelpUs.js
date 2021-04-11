@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-import "./styles/HelpUs.css";
+import './styles/HelpUs.css';
 
-import EditPage from "../components/EditPage";
+import EditPage from '../components/EditPage';
 
-import buttonImage from "../images/1.png";
+import buttonImage from '../images/1.png';
 
 function HelpUs() {
   useEffect(() => {
-    document.title = "Help Us";
+    document.title = 'Help Us';
   }, []);
 
   return (
@@ -30,7 +30,7 @@ function HelpUs() {
             however big or small, is super valuable for our future.
           </p>
           <p className="help__text">Thanks!</p>
-          <a className="" href="/">
+          <a className="" href="#">
             <img className="help__btn" src={buttonImage} alt="" />
           </a>
         </div>

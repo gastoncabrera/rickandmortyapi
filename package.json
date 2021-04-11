@@ -2,7 +2,7 @@
   "name": "rick-and-morty3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://guidofabiancabrera.github.io/rickandmortyapi",
+  "homepage": "https://guidofabiancabrera.github.io/rickandmortyapi/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",

@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/help-us" component={HelpUs} />
+          <Route exact path="rickandmortyapi/" component={HomePage} />
+          <Route exact path="rickandmortyapi/about" component={About} />
+          <Route exact path="rickandmortyapi/help-us" component={HelpUs} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
